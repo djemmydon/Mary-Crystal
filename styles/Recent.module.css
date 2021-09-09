@@ -1,0 +1,165 @@
+.contain{
+
+    justify-content: center;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  
+     gap: 20px;
+     align-items: center;
+     position: relative;
+
+     justify-content: center;
+     box-sizing: border-box;
+     align-items: center;
+overflow: hidden;
+margin: 20px ;
+
+}
+
+.container div  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+background-color: black;
+    overflow: hidden;
+}
+.container div img{
+ 
+    max-width:100%;
+   
+
+object-fit: cover;
+ transition: ease-in-out 0.2s;
+
+ overflow: hidden;
+
+    
+}
+.contain .text{
+border-bottom: 2px solid red;
+position: relative;
+
+width: 100%;
+background-color: rgb(200, 200, 200);
+}
+.contain div h1 {
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 700;
+    
+
+}
+
+.container div img:hover{
+ transition: 0.5s ;
+transform: scale(1.1, 1.1);
+
+}
+
+.container div h4 {
+    color: rgb(209, 72, 72);
+    padding: 10px 0 0 10px;
+}
+
+.container div h4 span {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: rgb(151, 148, 148);
+    font-weight: 300;
+    border-image: 20px red solid;
+
+}
+
+.base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    justify-content: center;
+    gap:20px;
+    width: 100%;
+    height: 100vh;
+   
+background-color: rgb(224, 224, 224);
+  
+}
+
+.base1 {
+overflow: hidden;    
+}
+.base1 img {
+   max-width: 100%;
+
+}
+.base2 {
+  display: flex;
+  flex-direction: column;
+padding-top: 10rem;
+margin-right: 10px;
+  align-items: center;
+
+}
+
+.base2 h1 {
+    color: rgb(255, 102, 0);
+    font-weight: 600;
+    font-size: 4rem;
+    width: 40rem;
+
+}
+
+.base2  p {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 1.5rem;
+    width:35rem;
+    text-align: center;
+
+}
+@media screen and (max-width: 700px){
+    .base{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    }
+
+        .base1 {
+      display: none;
+        }
+
+          .base2 {
+      text-align: center;
+      margin-bottom: 20rem;
+        }
+    .container div img{
+ 
+    max-width:100%;
+   
+
+object-fit: cover;
+ transition: ease-in-out 0.2s;
+ display: block;
+ overflow: hidden;
+
+    
+}
+}
+
+@media screen and (max-width: 400px) {
+.base2 h1 {
+    color: rgb(255, 102, 0);
+    font-weight: 600;
+    font-size: 3rem;
+   width: 30rem;
+
+}
+
+.base2{
+    padding-left: 20px;
+        padding-right: 20px;
+
+}
+}

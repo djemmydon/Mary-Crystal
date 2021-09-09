@@ -1,0 +1,69 @@
+.nav {
+
+  z-index: 20;
+position: sticky;
+background: rgb(0, 0, 0);
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 60px;
+  
+}
+.Logo {
+color: rgb(255, 255, 255);
+inset: 0 0 5rem 45px;
+font-size: 10px;
+
+font-weight: 600;
+margin: 1rem 0 10px 10px;
+position: absolute;
+
+}
+
+.Logo img {
+    font-size: 20px;
+    
+padding: 10px 0 50px 0;
+text-transform: uppercase;
+width: 12rem;
+
+
+}
+
+
+
+
+
+.HeadComp {
+
+margin: 40px 20px 0 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+.HeadComp  li {
+list-style: none;
+font-size: 30px;
+font-weight: 500;
+padding-bottom: 60px;
+
+
+}
+
+.HeadComp  li a {
+ color: rgb(199, 87, 6);
+
+transition: 0.2s;
+}
+
+.HeadComp  li a:hover {
+ color: rgb(212, 41, 41);
+ border: 2px solid red ;
+
+ 
+
+}
+

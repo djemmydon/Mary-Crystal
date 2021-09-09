@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "Component",
+			"path": "..\\..\\cryst\\Component"
+		},
+		{
+			"name": "mary-crystal",
+			"path": "."
+		},
+		{
+			"name": "pages",
+			"path": "..\\..\\cryst\\pages"
+		},
+		{
+			"name": "public",
+			"path": "..\\..\\cryst\\public"
+		},
+		{
+			"name": "styles",
+			"path": "..\\..\\cryst\\styles"
+		}
+	],
+	"settings": {}
+}

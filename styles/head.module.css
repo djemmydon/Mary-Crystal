@@ -1,0 +1,147 @@
+.Hero {
+ background-image:url('../public/bbb-min.jpg');
+
+
+background-repeat: no-repeat;
+background-size:100% 100%;
+background-position:contain;
+background-size: cover;
+width: 100%;
+
+margin: 0 ;
+padding: 0;
+height:  50vh;
+}
+
+
+.Hero div img {
+  width: 50rem;
+}
+
+
+
+
+
+
+.Text {
+    display: flex;
+    align-items: center;
+inset: 0 0 0 0;
+    flex-direction: column;
+
+right: 0;
+
+     
+    
+}
+
+.Text h1 {
+  font-family: 'ZCOOL XiaoWei', serif;
+color: rgb(255, 102, 0);
+  font-weight: 700;
+  font-size: 10rem;
+  text-align: center;
+     text-align: center;
+     text-shadow: 2px 2px rgba(0, 0, 0, 0.897);
+     width: 80rem;
+}
+
+.Text p {
+  color: white;
+  font-weight: 600;
+width: 50rem;
+font-size: 20px;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.897);
+}
+
+.Text button {
+  outline: none;
+  background-color: transparent;
+  border: 3px solid rgb(255, 255, 255);
+  color: white;
+  font-size: 25px;
+  padding:0.5rem 1.5rem;
+   text-shadow: 2px 2px rgba(0, 0, 0, 0.897);
+  transition: 0.3s;
+}
+
+.Text button:hover {
+    color: white;
+    background-color: black;
+}
+
+/*what we do*/
+
+.whatWeDo {
+  background-color:blue;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 30rem));
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ top: 0;
+  width: 100%;
+}
+
+.what {
+ 
+  align-items: center;
+  justify-content: center;
+  border: 3px white solid;
+  border-radius: 5px;
+  padding: 20px;
+  color: black;
+  font-size: 15px;
+  font-weight: 500px;
+}
+
+.what button {
+    outline: none;
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  font-size: 16px;
+  padding:0.3rem 0.5rem;
+
+  transition: 0.3s;
+}
+
+.what button:hover{
+      color: white;
+    background-color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .Text h1 {
+  font-family: 'ZCOOL XiaoWei', serif;
+color: rgb(255, 102, 0);
+  font-weight: 700;
+  font-size: 5rem;
+
+     width:40rem;
+}
+}
+
+@media screen and (max-width: 700px) {
+  .Text h1 {
+  font-family: 'ZCOOL XiaoWei', serif;
+color: rgb(255, 102, 0);
+  font-weight: 700;
+  font-size: 4rem;
+
+     width:40rem;
+}
+
+.Text p {
+  color: white;
+  font-weight: 600;
+width: 30rem;
+font-size: 15px;
+
+}
+
+
+
+
+}
