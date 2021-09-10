@@ -7,52 +7,32 @@ import {RecentId} from '../Component/RecentId'
 function Recent() {
     return (
        <>
-       <div className={`${styles.contain} container`}>
-           <h1>Recents</h1>
+       <div className={`${styles.contain} container `} id='recent'>
+           <h1 className='text-center'>Recents</h1>
+
+
                 <div className={styles.container}>
    
 
 
                 {
                         RecentId.map(recent => {
-                            const { price, image, pbefore} =recent;
+                            const { price, image, pbefore, name} =recent;
                         return(
                         
                             <div key={recent.id}>
                             <img src={image} alt="" />
-                                <div className={`${styles.text} card-img-top`}>
-                                    <h4>{price}<span>{pbefore}</span></h4>
+                                <div className={`${styles.text}`}>
+                                    <h3>{name}</h3>
+                                    <h4>{price}  <span>{pbefore}</span></h4>
                                 </div>
                             </div>
                             
                         )
                     })
                 }
-                    {/* <div>
-                        <img src="/men.jpg" alt="" />
-
-                        <h4>$10,000 <span>$15,400</span></h4>
-                    </div>
-                    <div>
-                        <img src="/men.jpg" alt="" />
-
-                        <div className={`${styles.text} card-img-top`}>
-                        <h4>$10,000 <span>$15,400</span></h4>
-                    </div>
-             </div>
-
-
-                    <div>
-                        <img src="/women.jpg" alt="" />
-
-                        <h4>$10,000 <span>$15,400</span></h4>
-                    </div>
-
-                    <div >
-                        <img src="/men3.jpg" alt="" />
-
-                        <h4>$10,000 <span>$15,400</span></h4>
-                    </div> */}
+                  
+        
            </div>
 
            <div className={`${styles.base} `}>
@@ -65,7 +45,10 @@ function Recent() {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, mollitia tempora excepturi eaque quo nobis.</p>
                     </div>
            </div>
-       </div>
+
+
+  
+</div>
        </>
     )
 }

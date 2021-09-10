@@ -1,0 +1,64 @@
+.www{
+  margin-top: 10rem;
+}
+
+/*what we do*/
+
+.whatWeDo {
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 30px;
+align-items: center;
+width: 100%;
+
+}
+
+.what {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  border: 3px white solid;
+  border-radius: 5px;
+  padding: 20px;
+  color: black;
+  font-size: 15px;
+  font-weight: 500px;
+  margin: 30px;
+}
+
+.what img {
+    width: 10rem;
+    border-radius: 100px;
+    border: 2px solid rgb(240, 84, 56);
+
+}
+
+.what h4 {
+    font-size: 3rem;
+}
+
+.what p {
+    font-size: 1.5rem;
+    width: 40rem;
+    text-align: center;
+}
+
+.what button {
+    outline: none;
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  font-size: 16px;
+  padding:0.3rem 0.5rem;
+
+  transition: 0.3s;
+}
+
+.what button:hover{
+      color: white;
+    background-color: black;
+}

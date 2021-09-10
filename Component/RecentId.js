@@ -6,14 +6,16 @@ export const RecentId=[
         image: "/men.jpg",
             price: "$200",
         pbefore: "$250",
-        order: 'Buy Now'
+        order: 'Buy Now',
+        name: 'Joggers'
     },
     {
         id: 2,
         image: "/men.jpg",
         price: "$200",
         pbefore: "$250",
-        order: 'Buy Now'
+        order: 'Buy Now',
+        name: 'Sweat Sheat'
     },
 
     {
@@ -21,7 +23,8 @@ export const RecentId=[
         image: "/men.jpg",
         price: "$200",
         pbefore: "$250",
-        order: 'Buy Now'
+        order: 'Buy Now',
+        name: 'Hoodie'
     },
 
     {
@@ -29,7 +32,8 @@ export const RecentId=[
         image: "/men.jpg",
         price: "$200",
         pbefore: "$250",
-        order: 'Buy Now'
+        order: 'Buy Now',
+        name: 'Sweat Sheat'
     },
 
     {
@@ -37,7 +41,8 @@ export const RecentId=[
         image: "/men.jpg",
         price: "$200",
         pbefore: "$250",
-        order: 'Buy Now'
+        order: 'Buy Now',
+         name: 'Sweat Sheat'
     },
 
 ]

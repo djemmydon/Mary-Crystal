@@ -1,0 +1,78 @@
+.Form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.forms  {
+        padding: 10px;
+}
+.forms input{
+   width: 40rem;
+   height: 4rem;
+   border: 2px solid black;
+   outline: none;
+   font-size: 18px;
+   padding: 10px;
+   
+   border-radius: 10px;
+    color: rgb(12, 12, 12);
+}
+
+.forms input::placeholder{
+ color: rgba(0, 0, 0, 0.486);
+ 
+
+}
+
+.textArea {
+resize: none;
+   width: 40rem;
+   height: 20rem;
+   border: 2px solid black;
+   outline: none;
+   font-size: 18px;
+   padding: 10px;
+   margin: 1rem;
+  
+   border-radius: 10px;
+    color: rgb(12, 12, 12);
+}
+
+.textArea::placeholder {
+     color: rgba(0, 0, 0, 0.486);
+ 
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    outline: none;
+    border: none;
+
+    color: red;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(144, 144, 144, 0.404);
+    border:2px solid rgb(255, 255, 255);
+    transition: 0.2s ease-in;
+}
+
+.btn button:hover {
+    background-color: rgb(255, 255, 255);
+    border:2px solid black;
+}
+
+.error {
+    color: red;
+    padding: 2px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}

@@ -29,7 +29,7 @@ function HeadComp() {
   
     return (
         <>
-        <div className={`${styles.header} `}>
+        <div className={`${styles.header} `} id='head'>
          
 
         <div className={`${styles.Hero}`}>
@@ -49,29 +49,7 @@ function HeadComp() {
         </motion.div>
    </div>
 
-                <motion.div className={styles.whatWeDo}>
-                    <div
-                        animate={{ scale: 1 }}
-                        initial={{ scale: 0 }}
-                        transition={{ duration: 0.5 }}
-                        className={styles.what}>
-                        <i className='fa fas-likes'></i>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, vero!</p>
-                        <button>welcome</button>
-                    </div>
 
-                    <div className={styles.what}>
-                        <i className='fa fas-likes'></i>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, vero!</p>
-                        <button>welcome</button>
-                    </div>
-
-                    <div className={styles.what}>
-                        <i className='fa fas-likes'></i>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, vero!</p>
-                        <button>welcome</button>
-                    </div>
-                </motion.div>
            </div>
           
         </>

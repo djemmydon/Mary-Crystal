@@ -4,22 +4,22 @@ import HeadComp from '../Component/HeadComp'
 import Recent from '../Component/Recent'
 import Selection from '../Component/Selection'
 import Navbar from '../Component/Navbar'
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+import Comment from '../Component/Comment'
+import Contact from '../Component/Contact'
+import emailjs from 'emailjs-com'
 
-
-
-
-import { faCode, faHighlighter, f075 } from '@fortawesome/free-regular-svg-icons';
 
 
 export default function Home() {
+  
+
   
   return (
     <div>
       <Head>
        <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
-
+      
       </Head>
     
       <main >
@@ -29,10 +29,11 @@ export default function Home() {
           <HeadComp />
         <Selection />
         <Recent />
-        <MessengerCustomerChat
-          pageId="<103922494687808>"
-          appId="<2063836163770492>"
-         />,
+
+        <Comment />
+        <Contact />
+
+        
       </main>
 
    

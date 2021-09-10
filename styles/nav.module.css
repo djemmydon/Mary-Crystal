@@ -49,19 +49,17 @@ list-style: none;
 font-size: 30px;
 font-weight: 500;
 padding-bottom: 60px;
-
+cursor: pointer;
 
 }
 
 .HeadComp  li a {
  color: rgb(199, 87, 6);
 
-transition: 0.2s;
 }
 
 .HeadComp  li a:hover {
- color: rgb(212, 41, 41);
- border: 2px solid red ;
+ color: rgb(190, 0, 0);
 
  
 

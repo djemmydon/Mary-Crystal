@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import styles from '../styles/selection.module.css'
-import { Swiper, SwiperSlide,autoPlay,pagination } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {
     EffectFlip, Pagination, Navigation, Autoplay
 } from 'swiper';
@@ -55,7 +55,8 @@ console.log(inView)
     },[inView])
     return (
         <>
-            <div ref={ref} className={`${styles.main} container-fluid`}>
+            <div ref={ref} className={`${styles.main} container-fluid`} id='select'>
+                <h1 className='text-center'>Selection</h1>
 
                 <div className={`${styles.portfolio} `}>
                     
@@ -73,6 +74,8 @@ console.log(inView)
                 </div>
 
                     <div className={`${styles.swip} container`}>
+                    <h1 className='text-center'>Trending</h1>
+
                 <Swiper
                 className={styles.Swip}
      
@@ -87,7 +90,10 @@ console.log(inView)
                     >
                         <img src="/bbb copy.jpg" alt="" />
                     </SwiperSlide>
-                    <SwiperSlide>  <img src="/pant1.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide> 
+                         <img src="/pant1.jpg" alt="" />
+                          
+                    </SwiperSlide>
                     <SwiperSlide>  <img src="/bbb copy.jpg" alt="" /></SwiperSlide>
                     <SwiperSlide>  <img src="/bbb copy.jpg" alt="" /></SwiperSlide>
                     <SwiperSlide>  <img src="/pant1.jpg" alt="" /></SwiperSlide>
