@@ -8,7 +8,7 @@ function Recent() {
     return (
        <>
        <div className={`${styles.contain} container `} id='recent'>
-           <h1 className='text-center'>Recents</h1>
+           <h1 className='text-center'>PRODUCTS</h1>
 
 
                 <div className={styles.container}>

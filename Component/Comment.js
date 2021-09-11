@@ -26,7 +26,7 @@ function Comment() {
     return (
         
             <div className={styles.www}>
-            <h1 className='text-center'>Trending</h1>
+            <h1 className='text-center'>TESTIMONIALS</h1>
                         {/* className={styles.whatWeDo} */}
             <Swiper style={{ '--swiper-navigation-color': '#fff', '--swiper-pagination-color': '#fff' }} zoom={true} navigation={false} pagination={false} className="mySwiper"  autoplay={true}>
            

@@ -56,7 +56,7 @@ console.log(inView)
     return (
         <>
             <div ref={ref} className={`${styles.main} container-fluid`} id='select'>
-                <h1 className='text-center'>Selection</h1>
+                <h1 className='text-center'>SELECTIONS</h1>
 
                 <div className={`${styles.portfolio} `}>
                     
@@ -74,7 +74,7 @@ console.log(inView)
                 </div>
 
                     <div className={`${styles.swip} container`}>
-                    <h1 className='text-center'>Trending</h1>
+                    <h1 className='text-center'>TRENDINGS</h1>
 
                 <Swiper
                 className={styles.Swip}

@@ -1,16 +1,19 @@
 .Hero {
- background-image:url('../public/bbb-min.jpg');
+  background-color: rgba(34, 31, 32, 0.561);
+ background-image:url('../public/bbb-min.jpg') 
+ ;
 
+background-blend-mode: multiply;
 
 background-repeat: no-repeat;
 background-size:100% 100%;
-background-position:contain;
+background-position: top ;
 background-size: cover;
 width: 100%;
 
 margin: 0 ;
 padding: 0;
-height:  70vh;
+height:  100vh;
 }
 
 
@@ -25,13 +28,13 @@ height:  70vh;
 
 .Text {
     display: flex;
-    align-items: center;
-inset: 0 0 0 0;
+
+
     flex-direction: column;
 
-right: 0;
-
-     
+width: 100%;
+padding-left: 10rem;
+    padding-top: 5rem; 
     
 }
 
@@ -40,30 +43,32 @@ right: 0;
 color: rgb(255, 102, 0);
   font-weight: 700;
   font-size: 10rem;
-  text-align: center;
-     text-align: center;
+
      text-shadow: 2px 2px rgba(0, 0, 0, 0.897);
-     width: 80rem;
+     width: 70rem;
 }
 
 .Text p {
   color: white;
   font-weight: 600;
-width: 50rem;
+width: 40rem;
 font-size: 20px;
-  text-align: center;
+
   text-shadow: 2px 2px rgba(0, 0, 0, 0.897);
 }
 
 .Text button {
   outline: none;
-  background-color: transparent;
+  background-color: rgb(56, 54, 54);
   border: 3px solid rgb(255, 255, 255);
   color: white;
   font-size: 25px;
-  padding:0.5rem 1.5rem;
+  padding:0.5rem 1rem;
    text-shadow: 2px 2px rgba(0, 0, 0, 0.897);
   transition: 0.3s;
+  padding: 2px 2px;
+  border-radius: 12px;
+  width: 30rem;
 }
 
 .Text button:hover {
@@ -74,6 +79,9 @@ font-size: 20px;
 
 
 @media screen and (max-width: 900px) {
+  .Hero{
+    height: 70vh;
+  }
     .Text h1 {
   font-family: 'ZCOOL XiaoWei', serif;
 color: rgb(255, 102, 0);
@@ -82,16 +90,26 @@ color: rgb(255, 102, 0);
 
      width:40rem;
 }
+
+.Text button {
+  width: 20rem;
+   padding:0.1rem 0.5rem;
+}
 }
 
 @media screen and (max-width: 700px) {
+
+  .Text{
+
+    overflow: hidden;
+  }
   .Text h1 {
   font-family: 'ZCOOL XiaoWei', serif;
 color: rgb(255, 102, 0);
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 5rem;
 
-     width:40rem;
+   width: 30rem;
 }
 
 .Text p {
