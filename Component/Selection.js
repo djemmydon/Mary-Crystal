@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import Link from 'next/link';
 import styles from '../styles/selection.module.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {
@@ -62,15 +63,21 @@ console.log(inView)
                     
                     <motion.div  className={`${styles.portfolioItems} `} animate={animation}  >
                      <img src="/women.jpg" alt="" />
+
+                     <Link href='/men' >
                         <button>Men <span>15 items</span></button>
+                        </Link>
                         </motion.div>
-
-
+ 
                     <motion.div className={`${styles.portfolioItems} `} animate={anim}  >
+                         
+  
                       <img src="/women.jpg" alt="" />
+                   <Link href='/women'  className={styles.Link}>
                         <button onClick={Recent}>Women <span>15 items</span></button>
+                      </Link>
                     </motion.div>
-
+  
                 </div>
 
                     <div className={`${styles.swip} container`}>

@@ -76,3 +76,20 @@ resize: none;
     font-weight: 500;
     font-size: 14px;
 }
+
+
+@media screen and (max-width: 375px) {
+
+
+    .textArea {
+width: 30rem;
+  height: 14rem;
+    }
+
+    .forms input{
+   width: 30rem;
+   height: 4rem;
+
+}
+
+}

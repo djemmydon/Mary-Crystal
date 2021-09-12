@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import styles from '../styles/nav.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee, faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faBars, faTimes,faWhatsapp } from '@fortawesome/free-solid-svg-icons'
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } 
 from 'react-scroll'
 import Recent from './Recent';
